@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+	<title>Головна</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220406170315">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="loader"></div>
+	<div hidden class="wrapper">
+		<header class="header" data-scroll-show>
+			<div class="header__container">
+				<div class="header__logo">
+					<a href="#">
+						<img src="img/icon/logo.svg" alt="Логотип">
+						<img src="img/icon/logo.svg" alt="Логотип">
+					</a>
+				</div>
+				<nav class="header__menu menu">
+					<div class="menu__body">
+						<ul class="menu__list">
+							<li><a href="#" data-goto=".greetings">ГОЛОВНА</a></li>
+							<li><a href="#" data-goto=".our-dishes">МЕНЮ</a></li>
+							<li><a href="#" data-goto=".our-story">ПРО НАС</a></li>
+							<li><a href="#" data-goto=".sentence">БРОНЬ</a></li>
+							<li class="menu__cart"><a href="#"><img src="img/icon/cart.svg" alt="Корзина"></a></li>
+						</ul>
+						<div class="menu__connection">
+							<div class="menu__phone">
+								<div class="menu__number">
+									<a href="#">
+										<span><img src="img/icon/phone.svg" width="23" height="23" alt="phone"></span>
+										+38(099)9999999
+									</a>
+								</div>
+								<div class="menu__number-text">Зв'яжіться з нами для бронювання</div>
+							</div>
+							<button class="menu__button btn">ЗАМОВити СТОЛИК</button>
+						</div>
+					</div>
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+				</nav>
+			</div>
+		</header>
+		<main class="page">
+			<div class="page__greetings greetings">
+				<div class="greetings__container">
+					<div class="greetings__header">
+						<h1 class="greetings__head">
+							Ласкаво просимо в
+							<span>Наш ресторан</span>
+						</h1>
+						<div class="greetings__text">
+							<span>Дім найкращої їжі</span>
+						</div>
+						<button class="greetings__button btn">
+							МЕНЮ
+						</button>
+					</div>
+				</div>
+			</div>
+			<section class="page__benefits benefits" data-watch data-watch-once data-watch-threshold="0.9">
+				<div class="benefits__container">
+					<div class="benefits__box">
+						<div class="benefits__img"><img src="img/icon/dish.svg" alt="dish"></div>
+						<div class="benefits__header">
+							<h4>Магічна <span>Атмосфера</span></h4>
+						</div>
+						<div class="benefits__text">
+							<p>
+								У нашому закладі панує магічна атмосфера, наповнена смачними ароматами.
+							</p>
+						</div>
+					</div>
+					<div class="benefits__box">
+						<div class="benefits__img"><img src="img/icon/dish.svg" alt="dish"></div>
+						<div class="benefits__header">
+							<h4>Найкраща якість <span>їжі</span></h4>
+						</div>
+						<div class="benefits__text">
+							<p>Якість нашої <br> Їжі - відмінна!</p>
+						</div>
+					</div>
+					<div class="benefits__box">
+						<div class="benefits__img"><img src="img/icon/dish.svg" alt="dish"></div>
+						<div class="benefits__header">
+							<h4>Недорога <span>Їжа</span></h4>
+						</div>
+						<div class="benefits__text">
+							<p>Вартість, залежить тільки від кількості. Якість завжди на висоті! </p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__our-story our-story" data-watch data-watch-once data-watch-threshold="0.6">
+				<div class="our-story__container">
+					<div class="our-story__content">
+						<h3 class="our-story__head title">
+							Наша <span>Історія</span>
+						</h3>
+						<div class="our-story__text">
+							<p>
+								Як і будь-яке інше місце, у нас є своя, особлива історія. Ідея ресторану прийшла засновникам несподівано. Під час прогулянки лісом творець нашого ресторану застряг за десятки
+								кілометрів від найближчого населеного пункту. Вдалині від цивілізації та зв'язку їм довелося на час облаштувати собі нехитрий побут, добувати і готувати собі їжу. &#128521;
+							</p>
+						</div>
+						<div class="our-story__indicators indicators">
+							<div class="indicators__box">
+								<div class="indicators__number">93</div>
+								<div class="indicators__name">Напої</div>
+							</div>
+							<div class="indicators__box">
+								<div class="indicators__number">206</div>
+								<div class="indicators__name">Їжа</div>
+							</div>
+							<div class="indicators__box">
+								<div class="indicators__number">71</div>
+								<div class="indicators__name">Закуски</div>
+							</div>
+						</div>
+					</div>
+					<div class="our-story__image">
+						<picture>
+							<source srcset="img/our-story/1.webp" type="image/webp"><img src="img/our-story/1.jpg" alt="eat">
+						</picture>
+					</div>
+				</div>
+			</section>
+			<section class="page__sentence sentence" data-watch data-watch-once data-watch-threshold="0.6">
+				<div class="sentence__container">
+					<div class="sentence__content">
+						<h2 class="sentence__head">
+							Відсвяткуйте в одному із найкращих ресторанів.
+						</h2>
+						<p class="sentence__text">
+							Тільки цього місяця бізнес-ланч від 100 &#8372
+					</div>
+					<div class="sentence__button">
+						<button class="sentence__btn btn">Замовити СТОЛИК</button>
+					</div>
+				</div>
+			</section>
+			<section class="page__our-dishes our-dishes" data-watch-root>
+				<div class="our-dishes__container">
+					<h3 class="our-dishes__head title">
+						Наші <span>Страви</span>
+					</h3>
+					<div class="our-dishes__content">
+						<div class="our-dishes__img" data-watch data-watch-once data-watch-threshold="0.4">
+							<picture>
+								<source srcset="img/our-dishes/1.webp" type="image/webp"><img src="img/our-dishes/1.jpg" alt="Пица">
+							</picture>
+						</div>
+						<div class="our-dishes__menu">
+							<div class="our-dishes__row dish" data-watch data-watch-once>
+								<div class="dish__img">
+									<picture>
+										<source srcset="img/our-dishes/2.webp" type="image/webp"><img src="img/our-dishes/2.jpg" alt="Гамбургер">
+									</picture>
+								</div>
+								<div class="dish__box">
+									<div class="dish__name">
+										Гамбургер міні
+									</div>
+									<div class="dish__line"></div>
+									<div class="dish__price">70<span>&#8372</span></div>
+								</div>
+							</div>
+							<div class="our-dishes__row dish" data-watch data-watch-once>
+								<div class="dish__img">
+									<picture>
+										<source srcset="img/our-dishes/2.webp" type="image/webp"><img src="img/our-dishes/2.jpg" alt="Гамбургер">
+									</picture>
+								</div>
+								<div class="dish__box">
+									<div class="dish__name">
+										Гамбургер міні
+									</div>
+									<div class="dish__line"></div>
+									<div class="dish__price">70<span>&#8372</span></div>
+								</div>
+							</div>
+							<div class="our-dishes__row dish" data-watch data-watch-once>
+								<div class="dish__img">
+									<picture>
+										<source srcset="img/our-dishes/2.webp" type="image/webp"><img src="img/our-dishes/2.jpg" alt="Гамбургер">
+									</picture>
+								</div>
+								<div class="dish__box">
+									<div class="dish__name">
+										Гамбургер міні
+									</div>
+									<div class="dish__line"></div>
+									<div class="dish__price">70<span>&#8372</span></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__our-menu our-menu" data-watch data-watch-once data-watch-threshold="0.2">
+				<div class="our-menu__container">
+					<h3 class="our-menu__header title title_white">Наше меню</h3>
+					<div class="our-menu__slider swiper">
+						<div class="our-menu__wrapper swiper-wrapper">
+							<div class="our-menu__slide swiper-slide card-product">
+								<div class="card-product__img">
+									<picture>
+										<source srcset="img/card-product/1.webp" type="image/webp"><img src="img/card-product/1.jpg" alt="burger">
+									</picture>
+									<span class="card-product__price">170</span>
+								</div>
+								<div class="card-product__name">
+									Гамбургер максі
+								</div>
+								<div class="card-product__description">
+									Максимально товстий шар м'яса
+								</div>
+								<button class="card-product__button btn btn_bronze">
+									ЗАМОВИТИ
+								</button>
+							</div>
+							<div class="our-menu__slide swiper-slide card-product">
+								<div class="card-product__img">
+									<picture>
+										<source srcset="img/card-product/1.webp" type="image/webp"><img src="img/card-product/1.jpg" alt="burger">
+									</picture>
+									<span class="card-product__price">170</span>
+								</div>
+								<div class="card-product__name">
+									Гамбургер максі
+								</div>
+								<div class="card-product__description">
+									Максимально товстий шар м'яса
+								</div>
+								<button class="card-product__button btn btn_bronze">
+									ЗАМОВИТИ
+								</button>
+							</div>
+							<div class="our-menu__slide swiper-slide card-product">
+								<div class="card-product__img">
+									<picture>
+										<source srcset="img/card-product/1.webp" type="image/webp"><img src="img/card-product/1.jpg" alt="burger">
+									</picture>
+									<span class="card-product__price">170</span>
+								</div>
+								<div class="card-product__name">
+									Гамбургер максі
+								</div>
+								<div class="card-product__description">
+									Максимально товстий шар м'яса
+								</div>
+								<button class="card-product__button btn btn_bronze">
+									ЗАМОВИТИ
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="our-menu__pagination"></div>
+				</div>
+			</section>
+			<div class="page__reviews reviews" data-watch data-watch-once data-watch-threshold="0.6">
+				<div class="reviews__container">
+					<div class="reviews__slider swiper">
+						<div class="reviews__wrapper swiper-wrapper">
+							<div class="reviews__slide swiper-slide">
+								<div class="reviews__text">
+									<p>
+										Я надовго запам'ятаю мій День народження, проведений у цьому ресторані! Шматок рідної Вірменії! Окрема подяка за комплепент у вигляді фруктової тарілки. Рекомендую цей
+										ресторан своїм друзям та родичам!!!
+									</p>
+								</div>
+								<div class="reviews__photo">
+									<picture>
+										<source srcset="img/reviews/1.webp" type="image/webp"><img src="img/reviews/1.jpg" alt="Посетитель">
+									</picture>
+								</div>
+								<div class="reviews__status">
+									Відвідувач
+								</div>
+								<div class="reviews__name">
+									Микола
+								</div>
+							</div>
+							<div class="reviews__slide swiper-slide">
+								<div class="reviews__text">
+									<p>
+										Я надовго запам'ятаю мій День народження, проведений у цьому ресторані! Шматок рідної Вірменії! Окрема подяка за комплепент у вигляді фруктової тарілки.
+									</p>
+								</div>
+								<div class="reviews__photo">
+									<picture>
+										<source srcset="img/reviews/1.webp" type="image/webp"><img src="img/reviews/1.jpg" alt="Посетитель">
+									</picture>
+								</div>
+								<div class="reviews__status">
+									Відвідувач
+								</div>
+								<div class="reviews__name">
+									Андрій
+								</div>
+							</div>
+							<div class="reviews__slide swiper-slide">
+								<div class="reviews__text">
+									<p>
+										Я надовго запам'ятаю мій День народження, проведений у цьому ресторані! Шматок рідної Вірменії! Окрема подяка за комплепент у вигляді фруктової тарілки. Рекомендую цей
+										ресторан своїм друзям та родичам!!!
+									</p>
+								</div>
+								<div class="reviews__photo">
+									<picture>
+										<source srcset="img/reviews/1.webp" type="image/webp"><img src="img/reviews/1.jpg" alt="Посетитель">
+									</picture>
+								</div>
+								<div class="reviews__status">
+									Відвідувач
+								</div>
+								<div class="reviews__name">
+									Микола
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="reviews__pagination"></div>
+				</div>
+			</div>
+			<section class="page__dishes-gallery dishes-gallery">
+				<div class="dishes-gallery__container">
+					<h3 class="dishes-gallery__header title">
+						Галерея <span>Страв</span>
+					</h3>
+				</div>
+				<div class="dishes-gallery__images">
+					<div class="dishes-gallery__container gallery-dishes" data-gallery>
+						<div data-src="img/gallery/1.jpg" class="gallery-dishes__img gallery-dishes__img_big">
+							<picture>
+								<source srcset="img/gallery/1.webp" type="image/webp"><img src="img/gallery/1.jpg" alt="Бокали">
+							</picture>
+						</div>
+						<div data-src="img/gallery/2.jpg" class="gallery-dishes__img">
+							<picture>
+								<source srcset="img/gallery/2.webp" type="image/webp"><img src="img/gallery/2.jpg" alt="Кава">
+							</picture>
+						</div>
+						<div data-src="img/gallery/3.jpg" class="gallery-dishes__img">
+							<picture>
+								<source srcset="img/gallery/3.webp" type="image/webp"><img src="img/gallery/3.jpg" alt="Борщ">
+							</picture>
+						</div>
+						<div data-src="img/gallery/2.jpg" class="gallery-dishes__img">
+							<picture>
+								<source srcset="img/gallery/2.webp" type="image/webp"><img src="img/gallery/2.jpg" alt="Кава">
+							</picture>
+						</div>
+						<div data-src="img/gallery/3.jpg" class="gallery-dishes__img">
+							<picture>
+								<source srcset="img/gallery/3.webp" type="image/webp"><img src="img/gallery/3.jpg" alt="Борщ">
+							</picture>
+						</div>
+						<div data-src="img/gallery/1.jpg" class="gallery-dishes__img gallery-dishes__img_big">
+							<picture>
+								<source srcset="img/gallery/1.webp" type="image/webp"><img src="img/gallery/1.jpg" alt="Бокали">
+							</picture>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="page__our-chefs our-chefs" data-watch data-watch-once data-watch-threshold="0.6">
+				<div class="our-chefs__container">
+					<h3 class="our-chefs__header title">
+						Наші <span>Кухарі</span>
+					</h3>
+					<div class="our-chefs__slider swiper">
+						<div class="our-chefs__wrapper swiper-wrapper">
+							<div class="our-chefs__slide swiper-slide">
+								<picture>
+									<source srcset="img/our-chefs/1.webp" type="image/webp"><img src="img/our-chefs/1.jpg" alt="1">
+								</picture>
+							</div>
+							<div class="our-chefs__slide swiper-slide">
+								<picture>
+									<source srcset="img/our-chefs/2.webp" type="image/webp"><img src="img/our-chefs/2.jpg" alt="2">
+								</picture>
+							</div>
+							<div class="our-chefs__slide swiper-slide">
+								<picture>
+									<source srcset="img/our-chefs/3.webp" type="image/webp"><img src="img/our-chefs/3.jpg" alt="3">
+								</picture>
+							</div>
+						</div>
+					</div>
+					<div class="our-chefs__pagination"></div>
+				</div>
+			</div>
+	</div>
+	</main>
+	<footer class="footer">
+		<picture>
+			<source srcset="img/footer/1.webp" type="image/webp"><img src="img/footer/1.jpg" alt="Рестран">
+		</picture>
+	</footer>
+	</div>
+	<!-- 
+<div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+			</div>
+		</div>
+	</div>
+</div>
+ -->
+
+	<script src="js/app.min.js?_v=20220406170315"></script>
+</body>
+
+</html>
